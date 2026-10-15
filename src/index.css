@@ -1,0 +1,8 @@
+/* Tailwind's three layers: base reset, component classes, utility classes. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 text-slate-800 antialiased;
+}
